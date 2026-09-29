@@ -12,8 +12,8 @@ if (-not $changes) {
 # 1. 깃허브의 최신 내용을 먼저 받아옴 (충돌 방지)
 git pull origin main --rebase
 
-# 2. 내 변경 사항 추가 및 커밋 (오늘 날짜가 자동으로 들어가도록 변수 사용)
-git add .
+# 2. Study 폴더의 새 파일, 수정 파일, 삭제 파일을 모두 추가
+git add --all -- Study
 $date = Get-Date -Format 'yyyy-MM-dd'
 git commit -m "Study: $date"
 
