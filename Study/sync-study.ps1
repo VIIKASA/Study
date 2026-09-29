@@ -9,7 +9,13 @@ if (-not $changes) {
     exit 0
 }
 
-git add -- Study
+# 1. 깃허브의 최신 내용을 먼저 받아옴 (충돌 방지)
+git pull origin main --rebase
+
+# 2. 내 변경 사항 추가 및 커밋 (오늘 날짜가 자동으로 들어가도록 변수 사용)
+git add .
 $date = Get-Date -Format 'yyyy-MM-dd'
 git commit -m "Study: $date"
+
+# 3. 깃허브로 업로드
 git push origin main
