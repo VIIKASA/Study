@@ -4,4 +4,11 @@
     계속 실수하는 것 : char or string을 다룰때 '' "" 생략하지 말 것. 연산자 = 과 == 구별해서 쓰기. 
     for(char ch : str.toCharArray()) : 문자열을 char[] 배열로 쪼개서 ch에 하나씩 담아서 반복
     switch 문 : 위에 for-each와 결합해 switch(ch) { case Alpha : n++; break; ... }으로 케이스를 정할 수 있다.
-    
+4일차 : 짧게 프로그래머스 7일차 문제들만 (5개) 풀고 자기로 했다. 
+    import java.util.ArrayList; 에 대하여...
+    ArrayList : ArrayList<Integer /* 또는 Double, Character*/> list/*리스트 이름*/ = new ArrayList<>(); 로 선언한다.
+    list.add(추가할 데이터) -> 값 추가, int i = list.get(idx번호); -> 특정인덱스 추출
+    int length = list.size(); -> 길이 확인, list.isEmpty() -> 리스트가 비어있는지 확인. list.remove(0) -> 0번방 삭제
+    주의사항 : stream을 배우기 전까지는 마지막에 다른 배열에 for문을 이용해 ArrayList에 저장된 값을 넣어줘야 함.
+
+    Integer.toBinaryString(k); -> k에 있는 수를 이진수로 바꾸는 것
