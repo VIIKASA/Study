@@ -11,6 +11,6 @@
     int length = list.size(); -> 길이 확인, list.isEmpty() -> 리스트가 비어있는지 확인. list.remove(0) -> 0번방 삭제
     주의사항 : stream을 배우기 전까지는 마지막에 다른 배열에 for문을 이용해 ArrayList에 저장된 값을 넣어줘야 함.
 
-    Integer.toBinaryString(k); -> k에 있는 수를 이진수로 바꾸는 것
+    Integer.toBinaryString(k); -> k에 있는 수를 이진수로 바꾸는 것.
     trim()과 split() -> trim은 앞뒤 공백 제거, split은 해당 문자를 기준으로 array를 나눔.
     split("\\s+")을 하면 공백(\\s)이 몇 개든 상관없이 한 개로 취급하고 split을 진행.
