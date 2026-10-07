@@ -15,3 +15,6 @@
     trim()과 split() -> trim은 앞뒤 공백 제거, split은 해당 문자를 기준으로 array를 나눔.
     split("\\s+")을 하면 공백(\\s)이 몇 개든 상관없이 한 개로 취급하고 split을 진행.
     Arrays.copyOfRange(list, 시작점, 끝점) -> list의 특정 범위를 가져오는 명령
+    Arrays.sort(list) 배열을 오름차순으로 정리.
+    string.contains(target) -> string 안에 target이 있나 검사
+    string.substring(i,j) -> i부터 j까지 string 추출, (i)만 하면 i부터 끝까지
