@@ -18,3 +18,6 @@
     Arrays.sort(list) 배열을 오름차순으로 정리.
     string.contains(target) -> string 안에 target이 있나 검사
     string.substring(i,j) -> i부터 j까지 string 추출, (i)만 하면 i부터 끝까지
+5일차 : 빠르게 프로그래머스 기초문제를 정복하자 화이팅
+    StringBuilder에 대하여... append() , reverse(), toString(), delete(시작,끝), deleteCharAt(idx), insert(위치, 값)
+    
