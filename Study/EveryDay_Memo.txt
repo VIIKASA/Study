@@ -20,4 +20,8 @@
     string.substring(i,j) -> i부터 j까지 string 추출, (i)만 하면 i부터 끝까지
 5일차 : 빠르게 프로그래머스 기초문제를 정복하자 화이팅
     StringBuilder에 대하여... append() , reverse(), toString(), delete(시작,끝), deleteCharAt(idx), insert(위치, 값)
+    Collections.sort(list) -> list를 사전순으로 정렬
+    list.toArray(new String[0]); -> 리스트를 String[]배열로 변환하기
+    string.startsWith(target) -> string이 target으로 시작하는지 검사
+    **String이 어떠한 문자와 같은지 비교할때는 == 가 아니라 .equals(target)으로 비교할 것**
     
